@@ -904,7 +904,10 @@ figcaption {
   max-height: 1.25rem;
   display: inline-flex;
 }
-
+.my-class {
+  color: orange;
+  font-size: 100px;
+}
 .nav-menu-button {
   padding: 0;
 }
@@ -1575,9 +1578,9 @@ figcaption {
 }
 
 .make-me-pretty {
-  color: var(--100);
+  color: red;
   text-align: center;
-  background-color: #ffffff14;
+  background-color: white;
   border-radius: .5rem;
   flex: none;
   min-height: 3.5rem;
